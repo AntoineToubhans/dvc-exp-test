@@ -1,0 +1,9 @@
+stages:
+  dumb_and_dumber:
+    cmd: python src/dumb_and_dumber.py
+    deps:
+      - src/dumb_and_dumber.py
+    params:
+      - seed
+    metrics:
+      - data/dumbest.json
