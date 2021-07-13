@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  dumb_and_dumber:
+    cmd: python src/dumb_and_dumber.py
+    deps:
+    - path: src/dumb_and_dumber.py
+      md5: 6a7dfc6772e9a589737117c30206f89c
+      size: 152
+    params:
+      params.yaml:
+        seed: 42
+    outs:
+    - path: data/dumbest.json
+      md5: e9b276f9e9bf2ae484b8a43f0dc8aaf4
+      size: 30
