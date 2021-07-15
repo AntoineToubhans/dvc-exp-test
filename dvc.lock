@@ -8,8 +8,8 @@ stages:
       size: 152
     params:
       params.yaml:
-        seed: 43
+        seed: 47
     outs:
     - path: data/dumbest.json
-      md5: 84978c2206e55c410a57c75aa44a674b
+      md5: fec657314d78bc5f6bc4021724bbcf80
       size: 31
