@@ -17,3 +17,15 @@ Veille technique AntoineT
 - partage d'exp
   - `dvc exp push origin EXP_ID`
   - `dvc exp pull origin EXP_ID`
+
+1. Faire le code pour runner l'xp
+  - IDE
+  - Git
+2. Définir le pipeline d'execution et ses dépendance data
+  - DVC pipeline and data
+3. Choisir ou va s'executer le code
+4. Gerer une queue d'execution
+5. Executer
+6. Versionner le resultat
+    - git 
+    - dvc
